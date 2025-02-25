@@ -1,18 +1,16 @@
-AI-Powered Course Recommendation System
+AI-Powered Content Summarization System
 
 📌 Overview
 
-This project is an AI-powered Course Recommendation System that utilizes Retrieval-Augmented Generation (RAG) to fetch relevant course details from a JSON dataset. It is designed to help users find suitable courses based on their queries in a chatbot-like interaction.
+This project is an AI-powered Content Summarization System that utilizes Natural Language Processing (NLP) and Large Language Models (LLMs) to generate concise summaries of text-based content. It helps in extracting key insights from long documents, articles, or any given text.
 
 🔥 Features
 
-Uses LangChain for natural language processing and retrieval.
+Uses LangChain for efficient text processing and summarization.
 
-Fetches course details dynamically from a structured JSON dataset.
+Supports different summarization styles (extractive & abstractive).
 
-Supports conversational interaction where users can ask about courses.
-
-Handles greetings and FAQs before suggesting courses.
+Handles large text inputs and generates meaningful summaries.
 
 Can be integrated with Twilio for AI-driven call responses.
 
@@ -22,11 +20,8 @@ Works without a dedicated server, using ChatGPT API for processing.
 
 Python (Primary Language)
 
-LangChain (For LLM-based retrieval)
+LangChain (For NLP-based summarization)
 
-JSON (For storing course data)
-
-OpenAI API (For AI responses)
+OpenAI API (For AI-generated summaries)
 
 Twilio (For call functionality, if enabled)
-
